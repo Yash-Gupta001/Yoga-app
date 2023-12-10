@@ -22,8 +22,6 @@ public class Splashscreenok extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreenok);
 
-
-
         ImageView imageView = findViewById(R.id.appsplash);
         up = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.up);
         imageView.setAnimation(up);
